@@ -31,7 +31,7 @@
                 <section id="preview">
                   <br> <h2 style="text-align:center;">Formulário para adicionar pessoas</h2>
                   
-                <form>
+                <form action="adicionadaComSucesso.html" method="get"> 
                 <div class="grid">
                 <div> *Seu Nome:<input type="text" name="firstname" placeholder="Seu nome:" aria-label="First name" required></div>
                 <div> *Seu Email:<input type="email" name="email" placeholder="Seu email:" aria-label="Email address" required> </div>
@@ -45,45 +45,11 @@
                 <p><input type="radio" name="opcao" value="naoinformar">Não Informar</p>
                 
                 <section id="buttons">
-                <div>
-                    
-                    <style>
-                        .button {
-                          background-color: rgb(16, 199, 47);
-                          color: white;
-                          padding: 12px 20px;
-                          border: none;
-                          border-radius: 4px;
-                          cursor: pointer;
-                          float: left;
-                          width: 30%;
-                          margin-right: 10px;
-                        }
-                        
-                      </style>
-                      
-                      <button class="button"><a href="adicionadaComSucesso.html">Adicionar!</a></button>
-
-                      <style>
-                        .button2 {
-                          background-color: rgb(214, 214, 214);
-                          color: rgb(27, 26, 26);
-                          padding: 12px 20px;
-                          border: none;
-                          border-radius: 4px;
-                          cursor: pointer;
-                          float: left;
-                          width: 30%;
-                          margin-right: 10px;
-                        }
-                        
-                      </style>
-
-                      <button class="button2"><a href="#">Limpar</a></button> 
-                    
-                </div>
-                
-                <p><br><br><br>*Campo Obrigatório</p>
+                  <div>
+                      <input type="submit" value="Adicionar!">
+                      <input type="reset" value="Limpar">
+                    </div>
+                <p>*Campo Obrigatório</p>
                
                 </section>
                     <fieldset>
